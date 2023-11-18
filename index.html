@@ -8,6 +8,16 @@
     
     <title>MT Hospitals & Services</title>
     <style>
+      html, body {
+        overflow-x: hidden;
+        }
+      body{
+      overflow-x: hidden;
+      position: relative;
+      -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+      }
         @font-face{
         font-family: 'Open Sans Condensed';
         src: url(fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Light.ttf);
@@ -64,6 +74,13 @@
         font-family: 'Nunito Sans';
         font-size: 20px;
         letter-spacing: -0.01em;
+      }
+      .mar-top{
+        margin-top: 10px;
+      }
+      .wh100{
+        width: 90%;
+        height: 90%;
       }
     </style>
   </head>
@@ -197,17 +214,17 @@
 
   <div class="container text-center">
     <div class="row">
-      <div class="col-8"><font face="Nunito-Sans" align="left" class="Nunito-Sans">
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-8"><font face="Nunito-Sans" align="left" class="Nunito-Sans">
         <h3>A Brief Introduction...</h3>      
         </font><font face="Nunito-Sans" align="left" class="Nunito-Sans">
           <p>MT Hospitals are a leading hospital network mainly located in London. We have our branches situated in Rome, Paris & Berlin. We offer below listed services to our patients. Above all we will return equal value to all of our stakeholders ~ customers, residents, patients, suppliers, employees, families and communities ~ confident in the belief that only by placing equal emphasis shall we reach the heights of human compassion.</p>      
         </font></div>
-      <div class="col-3"><img class="box rounded border-box" src="images/Minimalist Hospital and Medical Health Logo (1).png" alt="" ></div>
+      <div class="col-sm-7 col-md-6 col-lg-4 col-xl-4"><img class="box rounded border-box img-responsive wh100" src="images/Minimalist Hospital and Medical Health Logo (1).png" alt="" ></div>
     </div>
   </div>
   <div class="container">
     
-      <div><font face="Nunito-Sans" class="Nunito-Sans">
+      <div class="mar-top"><font face="Nunito-Sans" class="Nunito-Sans">
         <h3>Our Services</h3>      
         </font>
           <ul>
@@ -235,15 +252,15 @@
 
   <div class="container text-center">
     <div class="row">
-      <div class="col-6"><img onclick="window.location.href='pi.html'" class="box rounded" src="images/divisions/primcare.png" alt="" ></div>
-      <div class="col-6"><img onclick="window.location.href='mds.html'" class="box rounded" src="images/divisions/ment.png" alt="" ></div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"><img onclick="window.location.href='pi.html'" class="mar-top box rounded img-responsive wh100" src="images/divisions/primcare.png" alt="" ></div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"><img onclick="window.location.href='mds.html'" class="mar-top box rounded img-responsive wh100" src="images/divisions/ment.png" alt="" ></div>
     </div>
   </div>
   <br>
   <div class="container text-center">
     <div class="row">
-      <div class="col-6"><img onclick="window.location.href='hc.html'" class="box rounded" src="images/divisions/hos.png" alt="" ></div>
-      <div class="col-6"><img onclick="window.location.href='dc.html'" class="box rounded" src="images/divisions/dc.png" alt="" ></div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"><img onclick="window.location.href='hc.html'" class="mar-top box rounded img-responsive wh100" src="images/divisions/hos.png" alt="" ></div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"><img onclick="window.location.href='dc.html'" class="mar-top box rounded img-responsive wh100" src="images/divisions/dc.png" alt="" ></div>
     </div>
   </div>
   <br><br>
@@ -258,20 +275,20 @@
   <br>
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
         <font face="Nunito-Sans" align="left" class="Nunito-Sans">
           <p>Sign up for free Newsletters delivered by email to you monthly about the new and improving technologies here at MT Hospitals & Services.</p>      
         </font>
 
       </div>
-      <div class="col-4">
+      <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
         <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="name@example.com">
 
         
 
       </div>
-      <div class="col-2">
-        <button class="btn btn-outline-danger">Sign Up</button>
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+        <button class="btn btn-outline-danger mar-top">Sign Up</button>
       </div>
     </div>
 
@@ -281,10 +298,10 @@
   <br>
   <br>
   
-  <div class="container border-top bg-dark">
+  <div class="border-top bg-dark">
   <footer class="py-4">
-    <div class="row">
-      <div class="col-4">
+    <div class="row text-center">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
         <h5 class="w4db">About Us</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a data-bs-toggle="offcanvas" aria-controls="offcanvasExample2" href="#aboutus" class="nav-link p-0 text-muted">Our History</a></li>
@@ -338,7 +355,7 @@
         </ul>
       </div>
 
-      <div class="col-2">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
         <h5 class="w4db">Payment Methods</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="https://www.paypal.com" class="nav-link p-0 text-muted">Paypal</a></li>
@@ -349,7 +366,7 @@
         </ul>
       </div>
 
-      <div class="col-4">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
         <h5 class="w4db">Contact Us</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="brn.html" class="nav-link p-0 text-muted">London Branch</a></li>
@@ -359,7 +376,7 @@
           
         </ul>
       </div>
-      <div class="col-2">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
         <h5 class="w4db">Additional Info</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a data-bs-toggle="offcanvas" aria-controls="offcanvasExample" href="#additionals" class="nav-link p-0 text-muted">Suggetions</a></li>
@@ -396,10 +413,10 @@
     <br>
     <div class="container">
       <div class="row">
-        <div class="col-10">
+        <div class="col-sm-8 col-md-9 col-lg-10 col-xl-10">
           <p style="font-size: xx-small; color: #918b5b;">&copy; MT Hospitals & Services. All rights reserved.</p>
         </div>
-        <div class="col-2">
+        <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2">
           
           <ul class="list-unstyled d-flex">
             <p style="font-size: small; color: #f3f3f3;">Follow Us</p>
